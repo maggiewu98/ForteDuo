@@ -1,6 +1,9 @@
 class MaggiewusController < ApplicationController
   before_action :set_maggiewu, only: [:show, :edit, :update, :destroy]
 
+  def maggie_wu
+  end
+
   # GET /maggiewus
   # GET /maggiewus.json
   def index

@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  match "/maggie_wu", to: "maggiewus#maggie_wu", via: :get
+  match "/erin_dexheimer", to: "maggiewus#erin_dexheimer", via: :get
   resources :maggiewus
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
