@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   match "/maggie_wu", to: "maggiewus#maggie_wu", via: :get
   match "/erin_dexheimer", to: "maggiewus#erin_dexheimer", via: :get
+  match "/music&performances", to: "maggiewus#music_performances", via: :get
   resources :maggiewus
 
 
